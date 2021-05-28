@@ -1,0 +1,5 @@
+sceneSetups:
+- path: "Assets/Scenes/\u80CC\u5305\u7CFB\u7EDF(MVC+ScriptableObject).unity"
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
