@@ -8,4 +8,10 @@ public class Grid : MonoBehaviour
 {
     public Image gridImage;
     public Text girdNum;
+
+    public void UpdateInfo(Item item)
+    {
+        gridImage.sprite = item.itemImage;
+        girdNum.text = item.itemNum.ToString() ;
+    }
 }

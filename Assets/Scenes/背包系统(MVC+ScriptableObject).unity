@@ -1049,4 +1049,3 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   item: {fileID: 11400000, guid: 23d909ab7a15afd419e1e81cde0e5f5b, type: 2}
-  mainItem: {fileID: 11400000, guid: 2c76dbc3844aa7445bb57a1855919025, type: 2}

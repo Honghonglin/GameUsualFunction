@@ -7,17 +7,16 @@ public class ScenesItem : MonoBehaviour
     //物体的数据仓库
     public Item item;
     //背包的数据仓库
-    public MainItem mainItem;
+    //public MainItem mainItem;
     private void OnTriggerEnter(Collider other)
     {
         if (other.gameObject.name == "Player")
         {
-            if (!mainItem.itemList.Contains(item))
+            if (!BagController.Controller.mainItem.itemList.Contains(item))
             {
-                mainItem.itemList.Add(item);
+                item.AddEventListener(BagController.insertItemToUI);
             }
-            item.itemNum += 1;
-            BagController.updateItemToUI();
+            item.ItemAdd();
             Destroy(this.gameObject);
         }
     }
