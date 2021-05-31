@@ -37,50 +37,24 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Helper\MyExtension.cs" />
-     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
-     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
-     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\MainItem.cs" />
-     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Ulitity\PlayerCtrl.cs" />
-     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Ulitity\ScenesItem.cs" />
-     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\View\Grid.cs" />
-     <Compile Include="Assets\虚拟仿真\Scripts\虚拟仿真\SplitTest.cs" />
-     <Compile Include="Assets\配置表\Scripts\配置表\BaseExcel.cs" />
-     <Compile Include="Assets\配置表\Scripts\配置表\Props\Props.cs" />
-     <Compile Include="Assets\配置表\Scripts\配置表\Props\PropsInfo.cs" />
-     <Compile Include="Assets\配置表\Scripts\配置表\Props\ReadUnits.cs" />
-     <Compile Include="Assets\配置表\Scripts\配置表\Props\UnitInfo_Editor.cs" />
+     <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
+     <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
+     <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Model\MainItem.cs" />
+     <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Ulitity\PlayerCtrl.cs" />
+     <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Ulitity\ScenesItem.cs" />
+     <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\View\Grid.cs" />
+     <Compile Include="Assets\Scripts\虚拟仿真\SplitTest.cs" />
+     <Compile Include="Assets\Scripts\配置表\BaseExcel.cs" />
+     <Compile Include="Assets\Scripts\配置表\Props\Props.cs" />
+     <Compile Include="Assets\Scripts\配置表\Props\PropsInfo.cs" />
+     <Compile Include="Assets\Scripts\配置表\Props\ReadUnits.cs" />
+     <Compile Include="Assets\Scripts\配置表\Props\UnitInfo_Editor.cs" />
      <Compile Include="Assets\面板加载\Scripts\PanelDemoScript.cs" />
      <Compile Include="Assets\面板加载\Scripts\SingletonAutoMono.cs" />
      <Compile Include="Assets\面板加载\Scripts\StaticPanelMgr.cs" />
-     <None Include="Assets\配置表\Scripts\配置表\EPPlus.xml" />
+     <None Include="Assets\Scripts\配置表\EPPlus.xml" />
     <Reference Include="UnityEngine">
-<<<<<<< Updated upstream
-      <HintPath>E:\HubEditor\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEditor">
-      <HintPath>E:\HubEditor\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
-    </Reference>
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\Scripts\Helper\MyExtension.cs" />
-    <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
-    <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
-    <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Model\MainItem.cs" />
-    <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Ulitity\PlayerCtrl.cs" />
-    <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\Ulitity\ScenesItem.cs" />
-    <Compile Include="Assets\Scripts\背包(简易MVC+ScriptableObject\View\Grid.cs" />
-    <Compile Include="Assets\Scripts\虚拟仿真\SplitTest.cs" />
-    <Compile Include="Assets\Scripts\配置表\BaseExcel.cs" />
-    <Compile Include="Assets\Scripts\配置表\Props\Props.cs" />
-    <Compile Include="Assets\Scripts\配置表\Props\PropsInfo.cs" />
-    <Compile Include="Assets\Scripts\配置表\Props\ReadUnits.cs" />
-    <Compile Include="Assets\Scripts\配置表\Props\UnitInfo_Editor.cs" />
-    <None Include="Assets\Scripts\配置表\EPPlus.xml" />
-    <Reference Include="UnityEngine">
-      <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
-=======
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="UnityEngine.AIModule">
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
@@ -260,20 +234,13 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-<<<<<<< Updated upstream
-      <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-=======
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed/UnityEditor.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="DOTween">
         <HintPath>S:/gitHub/GameUsualFunction/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-        <HintPath>S:/gitHub/GameUsualFunction/Assets/配置表/Scripts/配置表/EPPlus.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>D:/GameUsualFunction/Assets/Scripts/配置表/EPPlus.dll</HintPath>
+        <HintPath>S:/gitHub/GameUsualFunction/Assets/Scripts/配置表/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

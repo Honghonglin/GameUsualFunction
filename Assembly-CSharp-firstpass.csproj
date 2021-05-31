@@ -225,20 +225,13 @@
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor">
-<<<<<<< Updated upstream
-      <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
-=======
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/Managed/UnityEditor.dll</HintPath>
->>>>>>> Stashed changes
     </Reference>
     <Reference Include="DOTween">
         <HintPath>S:/gitHub/GameUsualFunction/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-        <HintPath>S:/gitHub/GameUsualFunction/Assets/配置表/Scripts/配置表/EPPlus.dll</HintPath>
-    </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>D:/GameUsualFunction/Assets/Scripts/配置表/EPPlus.dll</HintPath>
+        <HintPath>S:/gitHub/GameUsualFunction/Assets/Scripts/配置表/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
         <HintPath>C:/Program Files/Unity/Hub/Editor/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
