@@ -1,5 +1,9 @@
 sceneSetups:
+<<<<<<< Updated upstream
 - path: "Assets/Scenes/\u80CC\u5305\u7CFB\u7EDF(MVC+ScriptableObject).unity"
+=======
+- path: "Assets/\u9762\u677F\u52A0\u8F7D/Scene/PanelDemoScene.unity"
+>>>>>>> Stashed changes
   isLoaded: 1
   isActive: 1
   isSubScene: 0
