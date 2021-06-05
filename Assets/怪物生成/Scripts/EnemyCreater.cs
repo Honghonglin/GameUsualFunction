@@ -6,6 +6,7 @@ using System;
 * 将此脚本挂载到一个对象上之后，即可自定义敌人生成波的数量、每波有多少个敌人个体等等
 * 只有敌人都被击败才会开始下一波
 * 关于敌人生成，实际上可以结合对象池实现复用，因为这里只是演示一下所以直接生成了
+* 三个状态循环：SPAWING--->WAITING---->COUNTING---->SPAWING
 */
 public class EnemyCreater : MonoBehaviour
 {
