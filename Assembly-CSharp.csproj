@@ -64,6 +64,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\NewBehaviourScript.cs" />
     <Compile Include="Assets\Scripts\Helper\MyExtension.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
@@ -261,11 +262,11 @@
     <Reference Include="UnityEditor">
       <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
     </Reference>
-    <Reference Include="EPPlus">
-      <HintPath>D:/GameUsualFunction/Assets/配置表/Scripts/配置表/EPPlus.dll</HintPath>
-    </Reference>
     <Reference Include="DOTween">
       <HintPath>D:/GameUsualFunction/Assets/Plugins/Demigiant/DOTween/DOTween.dll</HintPath>
+    </Reference>
+    <Reference Include="EPPlus">
+      <HintPath>D:/GameUsualFunction/Assets/配置表/Scripts/配置表/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="netstandard">
       <HintPath>E:/HubEditor/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
