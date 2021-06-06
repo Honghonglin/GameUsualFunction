@@ -66,6 +66,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Helper\MyExtension.cs" />
     <Compile Include="Assets\怪物生成\Scripts\EnemyCreater.cs" />
+    <Compile Include="Assets\怪物生成\Scripts\Ulitity\Test.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\MainItem.cs" />
