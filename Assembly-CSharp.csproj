@@ -70,6 +70,8 @@
     <Compile Include="Assets\怪物生成\Scripts\EnemyCreater.cs" />
     <Compile Include="Assets\怪物生成\Scripts\Ulitity\Test.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\EditorMono.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\InspectorExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\InspectorExample1.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\ObjSelectionBase.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\ShowTimeAttribute.cs" />
