@@ -5,4 +5,10 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes: []
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.playerid.apple_loader: {fileID: 11400000, guid: 5b3f1aeec1a14b34fb40f05d41178ec9,
+      type: 2}
+    com.unity.playerid.management.loader_settings: {fileID: 11400000, guid: ec65c9156f182f346956e02352d3e944,
+      type: 2}
+    com.unity.playerid.unity_userauth_loader: {fileID: 11400000, guid: 38e77cb593833eb4fb06557dcd003f23,
+      type: 2}
