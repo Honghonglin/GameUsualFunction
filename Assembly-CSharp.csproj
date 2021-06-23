@@ -64,18 +64,25 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Helper\MainCameraGizmos.cs" />
     <Compile Include="Assets\Scripts\Helper\MyExtension.cs" />
     <Compile Include="Assets\Scripts\Helper\StringExtension.cs" />
     <Compile Include="Assets\实名认证\Scripts\Tmp.cs" />
     <Compile Include="Assets\怪物生成\Scripts\EnemyCreater.cs" />
     <Compile Include="Assets\怪物生成\Scripts\Ulitity\Test.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\EditorMono.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\InspectorExample.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\InspectorExample1.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\ObjSelectionBase.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\ShowTimeAttribute.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\TimeTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\一\ObjSelectionBase.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\一\PlayerHealth.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\七\InspectorExample2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\七\TargetExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\七\TargetExample2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\三\InspectorExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\三\InspectorExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\二\EditorMono.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\二\ShowTimeAttribute.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\二\TimeTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\五\GizmosExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\五\TargetExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\六\SceneExt.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\MainItem.cs" />

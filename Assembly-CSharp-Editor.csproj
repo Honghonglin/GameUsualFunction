@@ -64,14 +64,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\ContextEditor.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\EditorMonoEditor.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\InspectorExampleEditor.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\InspectorExampleEditor1.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\MenuCommandEditor.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\MenuItemEditor.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\PlayerHealthEditor.cs" />
-    <Compile Include="Assets\编辑器相关\Scripts\Editor\TimeDrawer.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\ContextEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\MenuCommandEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\MenuItemEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\PlayerHealthEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\InspectorExampleEditor2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample1Editor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample2Drawer.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample2Editor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\三\InspectorExampleEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\三\InspectorExampleEditor1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\二\EditorMonoEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\二\TimeDrawer.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\五\GizmosTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\六\SceneExtEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample3.cs" />
     <Reference Include="UnityEngine">
       <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
