@@ -57,6 +57,7 @@ public class TargetExample2Editor : Editor
             foreach (var guid in guids) 
             {
                 var path = AssetDatabase.GUIDToAssetPath(guid);
+                //Debug.Log(System.IO.Path.GetFileNameWithoutExtension(path));
                 menu.AddItem(new GUIContent("Player/" + System.IO.Path.GetFileNameWithoutExtension(path))
                     , false, ClickHandler, new Creation() { prefabType = PrefabType.Player, path = path });
             }
@@ -106,7 +107,7 @@ public class TargetExample2Editor : Editor
     {
         GameObject character = AssetDatabase.LoadAssetAtPath<GameObject>(creation.path);
 
-        GameObject obj = GameObject.Instantiate(character);
+        GameObject obj = Instantiate(character);
         obj.name = character.name;
 
         SerializedProperty prefabPreperty = element.FindPropertyRelative("prefab");
@@ -123,6 +124,6 @@ public class TargetExample2Editor : Editor
     //获取预制体的预览图
     private Texture GetPreviewTex(GameObject obj)
     {
-        return AssetPreview.GetAssetPreview(obj) as Texture;
+        return AssetPreview.GetAssetPreview(obj);
     }
 }

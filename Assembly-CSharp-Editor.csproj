@@ -74,10 +74,15 @@
     <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample2Editor.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\三\InspectorExampleEditor.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\三\InspectorExampleEditor1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\九\Test4Editor.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\二\EditorMonoEditor.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\二\TimeDrawer.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\五\GizmosTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\八\DataEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\八\UndoTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\八\WindowExample4.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\六\SceneExtEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\十\AssetsImport.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample1.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample2.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample3.cs" />

@@ -77,11 +77,14 @@
     <Compile Include="Assets\编辑器相关\Scripts\七\TargetExample2.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\三\InspectorExample.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\三\InspectorExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\九\Test4.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\二\EditorMono.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\二\ShowTimeAttribute.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\二\TimeTest.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\五\GizmosExample.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\五\TargetExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\八\MyData.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\八\Test3.cs" />
     <Compile Include="Assets\编辑器相关\Scripts\六\SceneExt.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
