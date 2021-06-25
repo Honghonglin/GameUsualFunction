@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c12ae6a348e984fada4c92cb9c2f8e04, type: 3}
+  m_Name: Unity User Auth Loader Settings
+  m_EditorClassIdentifier: 
+  m_idDomainID: c0d2f399-7ce1-4a6c-8b1a-39a274485c8f
+  m_oauthClientId: 8d7de67d-aed5-4cea-b8d8-154f1db0d8f5
+  m_oauthScopes: openid offline identity.user
+  m_apiBaseUrl: https://identity-api.unity.cn
+  m_autoCreateAnonymousUser: 1
+  m_persistRefreshToken: 1
+  m_refreshTokenPersistKey: UnityPlayerIdentity.refreshToken
+  m_anonymousTokenPersistKey: UnityPlayerIdentity.anonymousToken

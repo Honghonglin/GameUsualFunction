@@ -64,7 +64,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\配置表\Editor\UnitInfo_Editor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\ContextEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\MenuCommandEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\MenuItemEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\一\PlayerHealthEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\InspectorExampleEditor2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample1Editor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample2Drawer.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\七\TargetExample2Editor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\三\InspectorExampleEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\三\InspectorExampleEditor1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\九\Test4Editor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\二\EditorMonoEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\二\TimeDrawer.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\五\GizmosTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\八\DataEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\八\UndoTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\八\WindowExample4.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\六\SceneExtEditor.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\十\AssetsImport.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\Editor\四\WindowExample3.cs" />
     <Reference Include="UnityEngine">
       <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -270,7 +291,7 @@
       <HintPath>D:/GameUsualFunction/Assets/Plugins/Demigiant/DOTween/Editor/DOTweenEditor.dll</HintPath>
     </Reference>
     <Reference Include="EPPlus">
-      <HintPath>D:/GameUsualFunction/Assets/Scripts/配置表/EPPlus.dll</HintPath>
+      <HintPath>D:/GameUsualFunction/Assets/配置表/Scripts/配置表/EPPlus.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
       <HintPath>D:/GameUsualFunction/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -638,11 +659,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.PlayerIdentity">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/UnityEngine.PlayerIdentity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -652,6 +682,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlayerIdentity.Editor">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/UnityEngine.PlayerIdentity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>

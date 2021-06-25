@@ -64,8 +64,28 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Scripts\Helper\MainCameraGizmos.cs" />
     <Compile Include="Assets\Scripts\Helper\MyExtension.cs" />
+    <Compile Include="Assets\Scripts\Helper\StringExtension.cs" />
+    <Compile Include="Assets\实名认证\Scripts\Tmp.cs" />
+    <Compile Include="Assets\怪物生成\Scripts\EnemyCreater.cs" />
+    <Compile Include="Assets\怪物生成\Scripts\Ulitity\Test.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\一\ObjSelectionBase.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\一\PlayerHealth.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\七\InspectorExample2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\七\TargetExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\七\TargetExample2.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\三\InspectorExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\三\InspectorExample1.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\九\Test4.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\二\EditorMono.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\二\ShowTimeAttribute.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\二\TimeTest.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\五\GizmosExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\五\TargetExample.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\八\MyData.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\八\Test3.cs" />
+    <Compile Include="Assets\编辑器相关\Scripts\六\SceneExt.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Controller\BagController.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\Item.cs" />
     <Compile Include="Assets\背包(简易MVC+ScriptableObject\Scripts\背包(简易MVC+ScriptableObject\Model\MainItem.cs" />
@@ -78,7 +98,29 @@
     <Compile Include="Assets\配置表\Scripts\配置表\Props\PropsInfo.cs" />
     <Compile Include="Assets\配置表\Scripts\配置表\Props\ReadUnits.cs" />
     <Compile Include="Assets\配置表\Scripts\配置表\Props\UnitInfo_Editor.cs" />
+    <Compile Include="Assets\防沉迷Player Identity\Samples\AntiAddictionSample\Assets\Scripts\TestAntiAddiction.cs" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\配置表\Scripts\配置表\EPPlus.xml" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\防沉迷Player Identity\TextMesh Pro\Shaders\TMP_Sprite.shader" />
     <Reference Include="UnityEngine">
       <HintPath>E:/HubEditor/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>
@@ -616,11 +658,20 @@
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.Subsystem.Registration">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.Subsystem.Registration.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="UnityEngine.PlayerIdentity">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/UnityEngine.PlayerIdentity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.EditorCoroutines.Editor">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.EditorCoroutines.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
@@ -630,6 +681,9 @@
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PlayerIdentity.Editor">
+      <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/UnityEngine.PlayerIdentity.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>D:/GameUsualFunction/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
